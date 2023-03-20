@@ -16,6 +16,23 @@ vocabulary: essay-zh-hans
 
 可以省略 `use_preset_vocabulary: true` 配置项。
 
+---
+
+
+例如在 `pinyin_simp.dict.yaml` 中:
+```yaml
+#pinyin_simp.dict.yaml
+---
+vocabulary: essay-zh-hans # <== 这一行
+name: pinyin_simp
+version: "0.1"
+sort: by_weight
+...
+鼥	ba	0
+釛	ba	0
+# ......
+```
+
 
 ## 安装
 
